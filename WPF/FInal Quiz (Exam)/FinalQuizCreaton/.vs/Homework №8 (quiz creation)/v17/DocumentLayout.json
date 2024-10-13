@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC1868-3B59-49EB-9178-6F67813C041B}|Homework \u21168 (quiz creation).csproj|C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AC1868-3B59-49EB-9178-6F67813C041B}|Homework \u21168 (quiz creation).csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC1868-3B59-49EB-9178-6F67813C041B}|Homework \u21168 (quiz creation).csproj|C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\viewmodel\\quizviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AC1868-3B59-49EB-9178-6F67813C041B}|Homework \u21168 (quiz creation).csproj|solutionrelative:viewmodel\\quizviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC1868-3B59-49EB-9178-6F67813C041B}|Homework \u21168 (quiz creation).csproj|c:\\users\\morev\\desktop\\final quiz (exam)\\finalquizcreaton\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2AC1868-3B59-49EB-9178-6F67813C041B}|Homework \u21168 (quiz creation).csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC1868-3B59-49EB-9178-6F67813C041B}|Homework \u21168 (quiz creation).csproj|C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\model\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AC1868-3B59-49EB-9178-6F67813C041B}|Homework \u21168 (quiz creation).csproj|solutionrelative:model\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC1868-3B59-49EB-9178-6F67813C041B}|Homework \u21168 (quiz creation).csproj|C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\model\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AC1868-3B59-49EB-9178-6F67813C041B}|Homework \u21168 (quiz creation).csproj|solutionrelative:model\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC1868-3B59-49EB-9178-6F67813C041B}|Homework \u21168 (quiz creation).csproj|C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\model\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AC1868-3B59-49EB-9178-6F67813C041B}|Homework \u21168 (quiz creation).csproj|solutionrelative:model\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2AC1868-3B59-49EB-9178-6F67813C041B}|Homework \u21168 (quiz creation).csproj|C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\delegatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2AC1868-3B59-49EB-9178-6F67813C041B}|Homework \u21168 (quiz creation).csproj|solutionrelative:delegatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuizViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\ViewModel\\QuizViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\QuizViewModel.cs",
+              "ToolTip": "C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\ViewModel\\QuizViewModel.cs",
+              "RelativeToolTip": "ViewModel\\QuizViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T15:39:46.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\Model\\Quiz.cs",
+              "RelativeDocumentMoniker": "Model\\Quiz.cs",
+              "ToolTip": "C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\Model\\Quiz.cs",
+              "RelativeToolTip": "Model\\Quiz.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T12:37:52.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\Model\\Answer.cs",
+              "RelativeDocumentMoniker": "Model\\Answer.cs",
+              "ToolTip": "C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\Model\\Answer.cs",
+              "RelativeToolTip": "Model\\Answer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T12:37:10.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\Model\\Question.cs",
+              "RelativeDocumentMoniker": "Model\\Question.cs",
+              "ToolTip": "C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\Model\\Question.cs",
+              "RelativeToolTip": "Model\\Question.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T12:33:48.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DelegateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\DelegateCommand.cs",
+              "RelativeDocumentMoniker": "DelegateCommand.cs",
+              "ToolTip": "C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\DelegateCommand.cs",
+              "RelativeToolTip": "DelegateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T12:20:32.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-06T12:19:11.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\morev\\Desktop\\FInal Quiz (Exam)\\FinalQuizCreaton\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T12:19:11.169Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

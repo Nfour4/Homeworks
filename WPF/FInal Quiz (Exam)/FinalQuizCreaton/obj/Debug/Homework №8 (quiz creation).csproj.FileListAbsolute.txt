@@ -1,0 +1,61 @@
+C:\Users\morev\source\repos\Homework №8 (quiz creation)\bin\Debug\Homework №8 (quiz creation).exe.config
+C:\Users\morev\source\repos\Homework №8 (quiz creation)\bin\Debug\Homework №8 (quiz creation).exe
+C:\Users\morev\source\repos\Homework №8 (quiz creation)\bin\Debug\Homework №8 (quiz creation).pdb
+C:\Users\morev\source\repos\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).csproj.AssemblyReference.cache
+C:\Users\morev\source\repos\Homework №8 (quiz creation)\obj\Debug\MainWindow.g.cs
+C:\Users\morev\source\repos\Homework №8 (quiz creation)\obj\Debug\App.g.cs
+C:\Users\morev\source\repos\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation)_MarkupCompile.cache
+C:\Users\morev\source\repos\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation)_MarkupCompile.lref
+C:\Users\morev\source\repos\Homework №8 (quiz creation)\obj\Debug\MainWindow.baml
+C:\Users\morev\source\repos\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).g.resources
+C:\Users\morev\source\repos\Homework №8 (quiz creation)\obj\Debug\Homework__8__quiz_creation_.Properties.Resources.resources
+C:\Users\morev\source\repos\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).csproj.GenerateResource.cache
+C:\Users\morev\source\repos\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).csproj.CoreCompileInputs.cache
+C:\Users\morev\source\repos\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).exe
+C:\Users\morev\source\repos\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).pdb
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).csproj.AssemblyReference.cache
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).csproj.SuggestedBindingRedirects.cache
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\obj\Debug\MainWindow.g.cs
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\obj\Debug\App.g.cs
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation)_MarkupCompile.cache
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation)_MarkupCompile.lref
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).exe
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).pdb
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\bin\Debug\Homework №8 (quiz creation).exe.config
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\bin\Debug\Homework №8 (quiz creation).exe
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\bin\Debug\Homework №8 (quiz creation).pdb
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\obj\Debug\MainWindow.baml
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).g.resources
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\obj\Debug\Homework__8__quiz_creation_.Properties.Resources.resources
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).csproj.GenerateResource.cache
+C:\Users\Препод\Desktop\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).csproj.CoreCompileInputs.cache
+D:\свежая викторина (создание квиза)\Homework №8 (quiz creation)\bin\Debug\Homework №8 (quiz creation).exe.config
+D:\свежая викторина (создание квиза)\Homework №8 (quiz creation)\bin\Debug\Homework №8 (quiz creation).exe
+D:\свежая викторина (создание квиза)\Homework №8 (quiz creation)\bin\Debug\Homework №8 (quiz creation).pdb
+D:\свежая викторина (создание квиза)\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).csproj.AssemblyReference.cache
+D:\свежая викторина (создание квиза)\Homework №8 (quiz creation)\obj\Debug\MainWindow.g.cs
+D:\свежая викторина (создание квиза)\Homework №8 (quiz creation)\obj\Debug\App.g.cs
+D:\свежая викторина (создание квиза)\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation)_MarkupCompile.cache
+D:\свежая викторина (создание квиза)\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation)_MarkupCompile.lref
+D:\свежая викторина (создание квиза)\Homework №8 (quiz creation)\obj\Debug\MainWindow.baml
+D:\свежая викторина (создание квиза)\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).g.resources
+D:\свежая викторина (создание квиза)\Homework №8 (quiz creation)\obj\Debug\Homework__8__quiz_creation_.Properties.Resources.resources
+D:\свежая викторина (создание квиза)\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).csproj.GenerateResource.cache
+D:\свежая викторина (создание квиза)\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).csproj.CoreCompileInputs.cache
+D:\свежая викторина (создание квиза)\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).exe
+D:\свежая викторина (создание квиза)\Homework №8 (quiz creation)\obj\Debug\Homework №8 (quiz creation).pdb
+C:\Users\morev\Desktop\FinalQuizCreaton\bin\Debug\Homework №8 (quiz creation).exe.config
+C:\Users\morev\Desktop\FinalQuizCreaton\bin\Debug\Homework №8 (quiz creation).exe
+C:\Users\morev\Desktop\FinalQuizCreaton\bin\Debug\Homework №8 (quiz creation).pdb
+C:\Users\morev\Desktop\FinalQuizCreaton\obj\Debug\Homework №8 (quiz creation).csproj.AssemblyReference.cache
+C:\Users\morev\Desktop\FinalQuizCreaton\obj\Debug\MainWindow.g.cs
+C:\Users\morev\Desktop\FinalQuizCreaton\obj\Debug\App.g.cs
+C:\Users\morev\Desktop\FinalQuizCreaton\obj\Debug\Homework №8 (quiz creation)_MarkupCompile.cache
+C:\Users\morev\Desktop\FinalQuizCreaton\obj\Debug\Homework №8 (quiz creation)_MarkupCompile.lref
+C:\Users\morev\Desktop\FinalQuizCreaton\obj\Debug\MainWindow.baml
+C:\Users\morev\Desktop\FinalQuizCreaton\obj\Debug\Homework №8 (quiz creation).g.resources
+C:\Users\morev\Desktop\FinalQuizCreaton\obj\Debug\Homework__8__quiz_creation_.Properties.Resources.resources
+C:\Users\morev\Desktop\FinalQuizCreaton\obj\Debug\Homework №8 (quiz creation).csproj.GenerateResource.cache
+C:\Users\morev\Desktop\FinalQuizCreaton\obj\Debug\Homework №8 (quiz creation).csproj.CoreCompileInputs.cache
+C:\Users\morev\Desktop\FinalQuizCreaton\obj\Debug\Homework №8 (quiz creation).exe
+C:\Users\morev\Desktop\FinalQuizCreaton\obj\Debug\Homework №8 (quiz creation).pdb

@@ -1,0 +1,43 @@
+﻿<Window x:Class="WPF_Lesson_8__quiz_.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Lesson_8__quiz_"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Login" Height="200" Width="300">
+    <Grid Background="Bisque">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBox Text="{Binding CurrentUser.Login, 
+                                UpdateSourceTrigger=PropertyChanged}"
+                 VerticalContentAlignment="Center"
+                 Grid.Row="0"
+                 FontSize="18"
+                 Margin="10"
+                 BorderThickness="3"
+                 BorderBrush="SteelBlue"/>
+        <TextBox Text="{Binding CurrentUser.Password, 
+                                UpdateSourceTrigger=PropertyChanged}"
+                 VerticalContentAlignment="Center"
+                 Grid.Row="1"
+                 Margin="10"
+                 BorderThickness="3"
+                 BorderBrush="SteelBlue"
+                 FontSize="18"/>
+        <Button Content="Login!"
+                Command="{Binding LoginCommand}"
+                Grid.Row="2"
+                Width="75"
+                Height="30"
+                FontWeight="Bold"
+                BorderThickness="3"
+                BorderBrush="SteelBlue"
+                Background="AntiqueWhite"
+                IsDefault="True"/>
+    </Grid>
+</Window>

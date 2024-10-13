@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Quiz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Questions>
+    <Question>
+      <Text>При каком российском правителе состоялось Бородинское сражение?</Text>
+      <Answers>
+        <Answer>
+          <Text>Александр I</Text>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Иван IV</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Юрий Долгорукий</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+    </Question>
+    <Question>
+      <Text>Когда состоялся первый крестовый поход?</Text>
+      <Answers>
+        <Answer>
+          <Text>948–952</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>1025–1028</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>1096–1099</Text>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+    </Question>
+    <Question>
+      <Text>Кто стал первым правителем из династии Романовых?</Text>
+      <Answers>
+        <Answer>
+          <Text>Андрей Кобыла</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Михаил Федорович</Text>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Федор Алексеевич</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+    </Question>
+    <Question>
+      <Text>Как назывался период в истории России с 1598 по 1613 год?</Text>
+      <Answers>
+        <Answer>
+          <Text>Грозное время</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Темное время</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Смутное время</Text>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+    </Question>
+    <Question>
+      <Text>В какой битве впервые применили химическое оружие?</Text>
+      <Answers>
+        <Answer>
+          <Text>Битва на Ипре</Text>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Битва на Калке</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Битва под Сталинградом</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+    </Question>
+  </Questions>
+  <Name>HistoryQuiz</Name>
+</Quiz>

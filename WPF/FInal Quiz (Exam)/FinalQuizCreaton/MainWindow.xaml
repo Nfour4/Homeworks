@@ -1,0 +1,229 @@
+﻿<Window x:Class="Homework__8__quiz_creation_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Homework__8__quiz_creation_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="800">
+    <Grid>
+        <TabControl Background="AntiqueWhite"
+                    BorderThickness="3"
+                    BorderBrush="DodgerBlue">
+            <TabItem Header="Question Form"
+                     IsSelected="True">
+                <StackPanel>
+                    <DockPanel>
+                        <TextBox DockPanel.Dock="Left"
+                                 Width="100"
+                                 Padding="5"
+                                 VerticalContentAlignment="Top"
+                                 FontSize="18"
+                                 FontStyle="Oblique"
+                                 FontWeight="DemiBold"
+                                 Background="FloralWhite"
+                                 BorderThickness="2 1 1 1"
+                                 BorderBrush="SteelBlue"
+                                 IsReadOnly="True">
+                            Question:
+                        </TextBox>
+                        <TextBox DockPanel.Dock="Right"
+                                 Width="Auto"
+                                 Background="FloralWhite"
+                                 BorderThickness="1 1 2 1"
+                                 BorderBrush="SteelBlue"
+                                 VerticalContentAlignment="Center"
+                                 FontWeight="DemiBold"
+                                 FontSize="16"
+                                 Text="{Binding CurrentQuestion.Text}"/>
+                    </DockPanel>
+                    <DockPanel>
+                        <TextBox DockPanel.Dock="Left"
+                                 Width="100"
+                                 Padding="5"
+                                 VerticalContentAlignment="Top"
+                                 FontSize="18"
+                                 FontStyle="Oblique"
+                                 FontWeight="DemiBold"
+                                 Background="FloralWhite"
+                                 BorderThickness="2 1 1 1"
+                                 BorderBrush="SteelBlue"
+                                 IsReadOnly="True">
+                            Answer 1:
+                        </TextBox>
+                        <TextBox DockPanel.Dock="Right"
+                                 Width="Auto"
+                                 Background="FloralWhite"
+                                 BorderThickness="1 1 2 1"
+                                 BorderBrush="SteelBlue"
+                                 VerticalContentAlignment="Center"
+                                 FontWeight="DemiBold"
+                                 FontSize="15"
+                                 Text="{Binding CurrentQuestion.Answers[0].Text}"/>
+                    </DockPanel>
+                    <DockPanel>
+                        <TextBox DockPanel.Dock="Left"
+                                 Width="100"
+                                 Padding="5"
+                                 VerticalContentAlignment="Top"
+                                 FontSize="18"
+                                 FontStyle="Oblique"
+                                 FontWeight="DemiBold"
+                                 Background="FloralWhite"
+                                 BorderThickness="2 1 1 1"
+                                 BorderBrush="SteelBlue"
+                                 IsReadOnly="True">
+                            Answer 2:
+                        </TextBox>
+                        <TextBox DockPanel.Dock="Right"
+                                 Width="Auto"
+                                 Background="FloralWhite"
+                                 BorderThickness="1 1 2 1"
+                                 BorderBrush="SteelBlue"
+                                 VerticalContentAlignment="Center"
+                                 FontWeight="DemiBold"
+                                 FontSize="15"
+                                 Text="{Binding CurrentQuestion.Answers[1].Text}"/>
+                    </DockPanel>
+                    <DockPanel>
+                        <TextBox DockPanel.Dock="Left"
+                                 Width="100"
+                                 Padding="5"
+                                 VerticalContentAlignment="Top"
+                                 FontSize="18"
+                                 FontStyle="Oblique"
+                                 FontWeight="DemiBold"
+                                 Background="FloralWhite"
+                                 BorderThickness="1 1 1 1"
+                                 BorderBrush="SteelBlue"
+                                 IsReadOnly="True">
+                            Answer 3:
+                        </TextBox>
+                        <TextBox DockPanel.Dock="Right"
+                                 Width="Auto"
+                                 Background="FloralWhite"
+                                 BorderThickness="1 1 2 1"
+                                 BorderBrush="SteelBlue"
+                                 VerticalContentAlignment="Center"
+                                 FontWeight="DemiBold"
+                                 FontSize="15"
+                                 Text="{Binding CurrentQuestion.Answers[2].Text}"/>
+                    </DockPanel>
+                    <DockPanel>
+                        <TextBox DockPanel.Dock="Left"
+                                 Width="100"
+                                 Padding="5"
+                                 VerticalContentAlignment="Top"
+                                 FontSize="15"
+                                 FontStyle="Oblique"
+                                 FontWeight="DemiBold"
+                                 Background="FloralWhite"
+                                 BorderThickness="1 1 1 2"
+                                 BorderBrush="SteelBlue"
+                                 IsReadOnly="True">
+                            Quiz Name:
+                        </TextBox>
+                        <TextBox DockPanel.Dock="Right"
+                                 Width="Auto"
+                                 Background="FloralWhite"
+                                 BorderThickness="1 1 2 2"
+                                 BorderBrush="SteelBlue"
+                                 VerticalContentAlignment="Center"
+                                 FontWeight="DemiBold"
+                                 FontSize="15"
+                                 Text="{Binding CurrentQuiz.Name}"/>
+                    </DockPanel>
+                    <ComboBox x:Name="comboBox"
+                              Height="30" 
+                              Width="200"
+                              Margin="30"
+                              HorizontalContentAlignment="Center"
+                              VerticalContentAlignment="Center"
+                              FontSize="14"
+                              FontStyle="Oblique"
+                              FontWeight="DemiBold"
+                              BorderThickness="2"
+                              BorderBrush="DodgerBlue">
+                        <ComboBoxItem x:Name="combAnswer1"
+                                      Content="Answer 1" 
+                                      IsSelected="True"
+                                      BorderBrush="DodgerBlue"
+                                      BorderThickness="1"
+                                      FontWeight="DemiBold"
+                                      Background="FloralWhite"/>
+                        <ComboBoxItem x:Name="combAnswer2"
+                                      Content="Answer 2"
+                                      BorderBrush="DodgerBlue"
+                                      BorderThickness="1"
+                                      FontWeight="DemiBold"
+                                      Background="FloralWhite"/>
+                        <ComboBoxItem x:Name="combAnswer3"
+                                      Content="Answer 3"
+                                      BorderBrush="DodgerBlue"
+                                      BorderThickness="1"
+                                      FontWeight="DemiBold"
+                                      Background="FloralWhite"/>
+                    </ComboBox>
+                    <DockPanel>
+                        <Button DockPanel.Dock="Left"
+                                HorizontalAlignment="Left"
+                                Content="Add Question"
+                                Command="{Binding AddQuestionCommand}"
+                                Height="40"
+                                Width="200"
+                                Margin="10 5 5 5"
+                                FontSize="18"
+                                FontStyle="Oblique"
+                                FontWeight="DemiBold"
+                                BorderBrush="DodgerBlue"
+                                BorderThickness="2"
+                                Background="FloralWhite"/>
+                        <Button DockPanel.Dock="Right"
+                                HorizontalAlignment="Right"
+                                Content="Export Quiz to XML"
+                                Command="{Binding ExportToXMLCommand}"
+                                Height="40"
+                                Width="200"
+                                Margin="5 5 10 5"
+                                FontSize="18"
+                                FontStyle="Oblique"
+                                FontWeight="DemiBold"
+                                BorderBrush="DodgerBlue"
+                                BorderThickness="2"
+                                Background="FloralWhite"/>
+                    </DockPanel>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Question Table">
+                <ListView x:Name="peopleListView"
+                          Background="FloralWhite"
+                          BorderThickness="2"
+                          BorderBrush="AntiqueWhite"
+                          FontWeight="DemiBold"
+                          FontStyle="Oblique"
+                          ItemsSource="{Binding CurrentQuiz.Questions}">
+                    <ListView.View>
+                        <GridView >
+                            <GridViewColumn Header="Question"
+                                            Width="155"
+                                            DisplayMemberBinding="{Binding Text}"
+                                            />
+                            <GridViewColumn Header="Answer 1"
+                                            Width="155"
+                                            DisplayMemberBinding="{Binding Answers[0].Text}"/>
+                            <GridViewColumn Header="Answer 2"
+                                            Width="155"
+                                            DisplayMemberBinding="{Binding Answers[1].Text}"/>
+                            <GridViewColumn Header="Answer 3"
+                                            Width="155"
+                                            DisplayMemberBinding="{Binding Answers[2].Text}"/>
+                            <GridViewColumn Header="Correct Answer"
+                                            Width="155"
+                                            DisplayMemberBinding="{Binding CorrectAnswer}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

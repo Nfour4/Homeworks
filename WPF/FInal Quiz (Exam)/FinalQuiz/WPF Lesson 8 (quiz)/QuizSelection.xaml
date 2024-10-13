@@ -1,0 +1,57 @@
+﻿<Window x:Class="WPF_Lesson_8__quiz_.QuizSelection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Lesson_8__quiz_"
+        mc:Ignorable="d"
+        x:Name="quizSelectWindow"
+        WindowStartupLocation="CenterScreen"
+        Title="QuizSelection" Height="400" Width="600">
+    <Grid>
+        <ListBox ItemsSource="{Binding QuizFiles}"
+                 HorizontalAlignment="Center"
+                 Margin="10"
+                 Background="AntiqueWhite">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel VerticalAlignment="Center">
+                        <TextBlock Text="{Binding QuizFiles[0].Topic.Text}" Margin="5"/>
+                        <Button x:Name="button1"
+                                Content="Start"
+                                Background="AntiqueWhite"
+                                Command="{Binding ElementName=quizSelectWindow,
+                                                  Path=DataContext.StartQuizCommand}"
+                                CommandParameter="{Binding}"
+                                FontSize="18"
+                                Margin="250 10"
+                                BorderThickness="2"
+                                BorderBrush="SteelBlue"/>
+                        <TextBlock Text="{Binding QuizFiles[1].Topic.Text}" Margin="5"/>
+                        <Button x:Name="button2"
+                                Content="Start"
+                                Background="AntiqueWhite"
+                                Command="{Binding ElementName=quizSelectWindow,
+                                                  Path=DataContext.StartQuizCommand}"
+                                CommandParameter="{Binding}"
+                                FontSize="18"
+                                Margin="250 10"
+                                BorderThickness="2"
+                                BorderBrush="SteelBlue"/>
+                        <TextBlock Text="{Binding QuizFiles[2].Topic.Text}" Margin="5"/>
+                        <Button x:Name="button3"
+                                Content="Start"
+                                Background="AntiqueWhite"
+                                Command="{Binding ElementName=quizSelectWindow,
+                                                  Path=DataContext.StartQuizCommand}"
+                                CommandParameter="{Binding}"
+                                FontSize="18"
+                                Margin="250 10"
+                                BorderThickness="2"
+                                BorderBrush="SteelBlue"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>

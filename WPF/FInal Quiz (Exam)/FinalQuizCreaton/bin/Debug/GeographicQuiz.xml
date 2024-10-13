@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Quiz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Questions>
+    <Question>
+      <Text>Какая из этих пустынь является самой древней в мире?</Text>
+      <Answers>
+        <Answer>
+          <Text>Гоби</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Намиб</Text>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Сахара</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+    </Question>
+    <Question>
+      <Text>Это самый большой океан в мире.</Text>
+      <Answers>
+        <Answer>
+          <Text>Индийский</Text>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Тихий</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Северный Ледовитый</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+    </Question>
+    <Question>
+      <Text>С каким государством у России пролегает самая длинная сухопутная граница?</Text>
+      <Answers>
+        <Answer>
+          <Text>Казахстан</Text>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Монголия</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Финляндия</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+    </Question>
+    <Question>
+      <Text>Суэцкий канал, какова его длина?</Text>
+      <Answers>
+        <Answer>
+          <Text>120 км</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>90 км</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>160 км</Text>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+    </Question>
+    <Question>
+      <Text>Столица Индии?</Text>
+      <Answers>
+        <Answer>
+          <Text>Нью-Дели</Text>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Мумбаи</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Бангалор</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+    </Question>
+  </Questions>
+  <Name>GeographicQuiz</Name>
+</Quiz>

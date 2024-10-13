@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Quiz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Questions>
+    <Question>
+      <Text>Летом в кафе полно желающих занять место на…</Text>
+      <Answers>
+        <Answer>
+          <Text>…террасе</Text>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>…терассе</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>...терасе</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+    </Question>
+    <Question>
+      <Text>В летнюю жару иногда очень хочется съесть…</Text>
+      <Answers>
+        <Answer>
+          <Text>…мороженное</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>…мороженое</Text>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>...морроженое</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+    </Question>
+    <Question>
+      <Text>Брак не по любви — это брак…</Text>
+      <Answers>
+        <Answer>
+          <Text>…по расчету</Text>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>…по рассчету</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>...по расчетту</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+    </Question>
+    <Question>
+      <Text>Если забыли, где в этом слове удвоенная «п», пишите: «бегемот».</Text>
+      <Answers>
+        <Answer>
+          <Text>Гипоппотам</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Гиппоппотам</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>Гиппопотам</Text>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+    </Question>
+    <Question>
+      <Text>Расстояние от начала до конца улицы — это ее…</Text>
+      <Answers>
+        <Answer>
+          <Text>…длинна</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>…длина</Text>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Text>…длинная</Text>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+    </Question>
+  </Questions>
+  <Name>GrammaticalQuiz</Name>
+</Quiz>

@@ -1,0 +1,19 @@
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\WPF Lesson 8 (quiz).csproj.AssemblyReference.cache
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\Login.g.cs
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\MainWindow.g.cs
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\App.g.cs
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\WPF Lesson 8 (quiz)_MarkupCompile.cache
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\WPF Lesson 8 (quiz)_MarkupCompile.lref
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\bin\Debug\WPF Lesson 8 (quiz).exe.config
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\bin\Debug\WPF Lesson 8 (quiz).exe
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\bin\Debug\WPF Lesson 8 (quiz).pdb
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\Login.baml
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\MainWindow.baml
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\WPF Lesson 8 (quiz).g.resources
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\WPF_Lesson_8__quiz_.Properties.Resources.resources
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\WPF Lesson 8 (quiz).csproj.GenerateResource.cache
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\WPF Lesson 8 (quiz).csproj.CoreCompileInputs.cache
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\WPF Lesson 8 (quiz).exe
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\WPF Lesson 8 (quiz).pdb
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\QuizSelection.g.cs
+C:\Users\morev\source\repos\WPF Lesson 8 (quiz)\obj\Debug\QuizSelection.baml
