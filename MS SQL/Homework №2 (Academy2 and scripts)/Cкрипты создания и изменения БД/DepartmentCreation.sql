@@ -1,0 +1,7 @@
+USE Academy2
+
+CREATE TABLE Departments (
+	DepartmentID INT PRIMARY KEY IDENTITY(1,1),
+	DepartmentName NVARCHAR(100) NOT NULL DEFAULT 'Name' UNIQUE,
+	Financy MONEY NOT NULL DEFAULT 0 CHECK(Financy >= 0)
+)
