@@ -1,0 +1,78 @@
+﻿<Window x:Class="Homework__3__Disconnected_mode_WPF_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Homework__3__Disconnected_mode_WPF_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Employees">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                        <Button x:Name="buttonFillEmployee" Content="Fill" Margin="10" Width="100"/>
+                        <Button x:Name="buttonUpdateEmployee" Content="Update" Margin="10" Width="100"/>
+                        <Button x:Name="buttonDeleteEmployee" Content="Delete Selection" Margin="10" Width="100"/>
+                    </StackPanel>
+                    <DataGrid x:Name="gridEmployees" Grid.Row="1" AutoGenerateColumns="False" HorizontalAlignment="Center">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Id}" IsReadOnly="True" Header="Id" Width="60"/>
+                            <DataGridTextColumn Binding="{Binding FirstName}" Header="FirstName" Width="140"/>
+                            <DataGridTextColumn Binding="{Binding LastName}" Header="LastName" Width="140"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Products">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                        <Button x:Name="buttonFillProduct" Content="Fill" Margin="10" Width="100"/>
+                        <Button x:Name="buttonUpdateProduct" Content="Update" Margin="10" Width="100"/>
+                        <Button x:Name="buttonDeleteProduct" Content="Delete Selection" Margin="10" Width="100"/>
+                    </StackPanel>
+                    <DataGrid x:Name="gridProducts" Grid.Row="1" AutoGenerateColumns="False" HorizontalAlignment="Center">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Id}" IsReadOnly="True" Header="Id" Width="60"/>
+                            <DataGridTextColumn Binding="{Binding ProductName}" Header="ProductName" Width="140"/>
+                            <DataGridTextColumn Binding="{Binding ProductType}" Header="ProductType" Width="140"/>
+                            <DataGridTextColumn Binding="{Binding Cost}" Header="Cost" Width="90"/>
+                            <DataGridTextColumn Binding="{Binding Price}" Header="Price" Width="90"/>
+                            <DataGridTextColumn Binding="{Binding Quantity}" Header="Quantity" Width="90"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Sales">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                        <Button x:Name="buttonFillSale" Content="Fill" Margin="10" Width="100"/>
+                        <Button x:Name="buttonUpdateSale" Content="Update" Margin="10" Width="100"/>
+                        <Button x:Name="buttonDeleteSale" Content="Delete Selection" Margin="10" Width="100"/>
+                    </StackPanel>
+                    <DataGrid x:Name="gridSales" Grid.Row="1" AutoGenerateColumns="False" HorizontalAlignment="Center">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Id}" IsReadOnly="True" Header="Id" Width="60"/>
+                            <DataGridTextColumn Binding="{Binding ProductId}" Header="ProductId" Width="70"/>
+                            <DataGridTextColumn Binding="{Binding EmployeeId}" Header="EmployeeId" Width="75"/>
+                            <DataGridTextColumn Binding="{Binding CustomerName}" Header="CustomerName" Width="100"/>
+                            <DataGridTextColumn Binding="{Binding Quantity}" Header="Quantity" Width="70"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
