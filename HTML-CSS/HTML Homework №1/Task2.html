@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2 {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: lighter;
+        }
+        .two-of-clubs {
+            background-color: #eee;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px ;
+            font-size: 48px;
+        }
+        .three-of-hearts {
+            background-color: #eee;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px ;
+            font-size: 48px;
+            color: red;
+        }
+        .nine-of-hearts {
+            background-color: #eee;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px ;
+            font-size: 48px;
+            color: red;
+            margin-left: 10px;
+            margin-right: 5px;
+        }
+        .six-of-hearts, .ace-of-diamonds, .jack-of-diamonds, .king-of-diamonds {
+            background-color: #eee;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px ;
+            font-size: 48px;
+            color: red;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .queen-of-spades, .ace-of-clubs, .ten-of-clubs, .eight-of-spades {
+            background-color: #eee;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-right: 5px ;
+            font-size: 48px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .p1 .two-of-clubs::after, .ace-of-clubs::after, .ten-of-clubs::after {
+            content: "♣";
+        }
+        .p1 .nine-of-hearts::after, .six-of-hearts::after, .three-of-hearts::after{
+            content: "♥";
+        }
+        .p1 .ace-of-diamonds::after, .jack-of-diamonds::after, .king-of-diamonds::after {
+            content: "♦";
+        }
+        .p1 .queen-of-spades::after, .eight-of-spades::after {
+            content: "♠";
+        }
+    </style>
+</head>
+<body>
+    <h2>Player 1:</h2>
+    <p class="p1">
+        <span class="two-of-clubs">2</span>
+        <span class="nine-of-hearts">9</span>
+        <span class="six-of-hearts">6</span>
+        <span class="ace-of-diamonds">A</span>
+        <span class="queen-of-spades">Q</span>
+        <span class="jack-of-diamonds">J</span></p>
+    <h2>Player 2:</h2>
+    <p class="p2">
+        <span class="three-of-hearts">3</span>
+        <span class="ace-of-clubs">A</span>
+        <span class="ten-of-clubs">10</span>
+        <span class="king-of-diamonds">K</span>
+        <span class="eight-of-spades">8</span>
+        <span class="three-of-hearts">3</span></p>
+</body>
+</html>
