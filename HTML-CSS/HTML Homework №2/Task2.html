@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2</title>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        body {
+            margin-left: 30px;
+        }
+
+        h2 {
+            margin-top: 0px;
+        }
+
+        ul {
+            width: 450px;
+            padding: 0px;
+            list-style-type: none;
+        }
+
+        li {
+            padding: 10px 10px 10px 14px;
+        }
+
+        del {
+            text-decoration: line-through;
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        ul li::before { 
+            content: url(icons/unchecked.png);
+            padding: 0 20px 0 28px;
+        }
+
+        ul li.done::before { 
+            content: url(icons/checked.png);
+        }
+
+        ul li::after { 
+            content: '\2A2F';
+            padding-left: 20px;
+            color: #8c1100;
+        }   
+
+        li:nth-child(odd) {
+            background-color: #a5ccda;
+        }
+
+        li:nth-child(even) {
+            background-color: #add8e6;
+        }    
+
+        li.color_ly {
+            background-color: #e2e2e2;
+        }
+    </style>
+</head>
+<body>
+    <h2>My To Do List</h2>
+    <ul>
+        <li>Hit the gym</li>
+        <li class="done color_ly"><del>Pay bills</del></li>
+        <li>Meet John</li>
+        <li>Buy eggs</li>
+        <li class="done color_ly"><del>Read a book</del></li>
+        <li>Organize office</li>
+        <li>Eat dinner</li>
+        <li>Buy apples</li>
+        <li>Meet George</li>
+        <li>Feed the cat</li>
+        <li class="done color_ly"><del>Write a letter</del></li>
+        <li>Run 1 km</li>
+    </ul>
+</body>
+</html>
