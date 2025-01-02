@@ -1,0 +1,93 @@
+<!-- Задание 1. Реализовать html-страницу со списком продуктов.
+Требования:
+▪ один продукт описывается иконкой и названием;
+▪ блок продукта обведён рамкой и имеет фиксированную ширину;
+▪ при изменении ширины браузера, в одну строку должно помещаться максимальное количество продуктов (на первом скриншоте в одной строке поместилось 5 продуктов, на втором – 4 продукта);
+▪ после списка продуктов должна быть подпись that’s all. -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="productList.css">
+    <title>Product List</title>
+    <style>
+        body{
+            max-width: 1060px;
+            min-width: 850px;
+            background: #f6f6f6;
+        }
+        h1,h3{
+            text-align: center;
+        }
+        .conteiner{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .fruit{
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            padding: 30px;
+            border: 2px solid #b8b8b8;
+            border-radius: 30px;
+
+        }
+        label{
+            font-family: sans-serif;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+        hr{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>What do i have im my fridge ?</h1>
+    <div class="conteiner">
+       <div class="fruit">
+           <img src="icons/Food_C247-128.png" id="pepper" alt="Болгарский перец">
+           <label for="pepper">Pepper</label>
+       </div>
+       <div class="fruit">
+            <img src="icons/Food_C240-128.png" id="apple" alt="Яблоко">
+            <label for="apple">Apple</label>
+       </div>
+       <div class="fruit">
+            <img src="icons/Food_C217-128.png" id="cheese" alt="Сыр"> 
+            <label for="cheese">Cheese</label>
+       </div>
+       <div class="fruit">
+            <img src="icons/Food_C245-128.png" id="corn" alt="Кукуруза">
+            <label for="corn">Corn</label>
+       </div>
+       <div class="fruit">
+            <img src="icons/Food_C239-128.png" id="mushroom" alt="Грибы">
+            <label for="mushroom">Mushroom</label>
+       </div>
+       <div class="fruit">
+            <img src="icons/Food_C238-128.png" id="garlic" alt="Чеснок">
+            <label for="garlic">Garlic</label>
+       </div>
+       <div class="fruit">
+            <img src="icons/Food_C225-128.png" id="meat" alt="Мясо">
+            <label for="meat">Beef</label>
+       </div>
+       <div class="fruit">
+            <img src="icons/Food_C205-128.png" id="fish" alt="Рыба">
+            <label for="fish">Fish</label>
+       </div>
+       <div class="fruit">
+            <img src="icons/Food_C203-128.png" id="egg" alt="Яйцо">
+            <label for="egg">Egg</label>
+       </div>
+       <div class="fruit">
+            <img src="icons/Food_C235-128.png" id="coriander" alt="Кориандр">
+            <label for="coriander">Coriander</label>
+       </div>
+   </div>
+   <hr>
+   <h3>...that's all...</h3>
+</body>
+</html>

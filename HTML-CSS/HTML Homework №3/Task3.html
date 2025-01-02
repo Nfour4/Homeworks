@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- Задание 3. Реализовать html-страницу со структурой сайта.
+Сайт состоит из:
+▪ шапки;
+▪ меню;
+▪ трех боковых панелей (2 слева, 1 справа);
+▪ основного содержимого, внутри которого: два блока, расположенных друг под другом;
+▪ футера.
+Задание необходимо выполнить, используя семантические теги HTML5 и CSS стиль float. -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Float Layout</title>
+    <link rel="stylesheet" href="siteStructure.css">
+    <style>
+        *{
+            font-family: sans-serif;
+            color: white;
+        }
+        body>div{
+            margin: 1em;
+        } 
+        .header{
+            background: #923158;
+            padding: 2em 6em;
+        }
+        .menu, .footer{
+            background: #6e1237;
+            padding: 1em 6em;
+        }
+        .aside-left{
+            width: 414px;
+            margin-right: 1em;
+        }
+        .aside1 {
+            background: #b65b80;
+            padding: 2em 12em 2em 6em;
+            margin-bottom: 1em;
+        }
+        .aside2 {
+            background: #b65b80;
+            padding: 2em 12em 8em 6em;
+            margin-bottom: 1em;
+        }
+        .main-center{
+            background: #b65b80;
+            padding: 2em 11em 4em 6em;
+            width: 960px;
+            margin-right: 1em;
+            margin-bottom: 1em;
+        }   
+        .aside-right{
+            float: left;
+            background: #b65b80;
+            padding-left: 2em;
+            width: 140px;
+            height: 440px;
+        }
+        .aside-right h1{
+            display: block;
+            padding-left: 40px;
+        }
+        section{
+            background: #db92af;
+            padding: 1em 0 4em 6em;
+            margin-bottom: 1em;
+        }
+        .conteiner div{
+            float: left;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .symbol-color{
+            color: #b65b80;;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>HEADER</h1>
+    </div>
+    <div class="menu">
+        <h1>MENU</h1>
+    </div>
+    <div class="conteiner">
+        <div class="aside-left">
+            <div class="aside1">
+                <h1>ASIDE 1</h1>
+            </div>
+            <div class="aside2">
+                <h1>ASIDE 2</h1>
+            </div>
+        </div>
+        <div class="main-center">
+            <h1>MAIN CONTENT</h1>
+            <section>
+                <h1>SECTION 1</h1>
+            </section>
+            <section>
+                <h1>SECTION 2</h1>
+            </section>
+        </div>
+        <div class="aside-right">
+            <h1>A</h1>
+            <h1>S</h1>
+            <h1>I</h1>
+            <h1>D</h1>
+            <h1>E</h1>
+            <h1 class="symbol-color">_</h1>
+            <h1>3</h1>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="footer">
+        <h1>FOOTER</h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- Задание 4. Реализовать html-страницу с футером.
+Футер состоит из двух колонок с пунктами меню и трех иконок социальных сетей.
+При наведении мышкой на пункт меню он должен становиться подчёркнутым. При наведении на иконки социальных сетей они должны становиться цветными (для этого используйте background-image). -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="footer.css">
+    <title>Footer of site</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #2a4f6e;
+            font-family: sans-serif;
+            color: white;
+        }
+        .flex-conteiner{
+            display: flex;
+            flex-direction: row;
+            padding-top: 4em;
+            padding-bottom: 3em;
+    
+        }
+        .flex-conteiner>div{
+            flex: 1;
+        }
+        .column div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 8px 0;
+            margin-left: 8em;
+        }
+        .images{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .images>div, .images>div:hover{
+            width: 64px;
+            height: 64px;
+        }
+        .image1{
+            background-image: url(icons/fb_gray.png);
+        }
+        .image1:hover{
+            background-image: url(icons/fb.png);
+        }
+        .image2{
+            background-image: url(icons/insta_gray.png);
+        }
+        .image2:hover{
+            background-image: url(icons/insta.png);
+        }
+        .image3{
+            background-image: url(icons/youtube_gray.png);
+        }
+        .image3:hover{
+            background-image: url(icons/youtube.png);
+        }
+        .bottomFooter{
+            display: flex;
+            margin-top: 2em;
+            align-items: center;
+            justify-content: center;
+        }
+        hr{
+            margin-left: 3em;
+            margin-right: 3em;
+        }
+
+        div>h4:hover{
+            text-decoration: underline;
+        }
+
+        div>image:hover{
+            background-image: url(icons/fb.png);
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="flex-conteiner">
+            <div class="column">
+                <div><h4>Home</h4></div>
+                <div><h4>About</h4></div>
+                <div><h4>Galary</h4></div>
+                <div><h4>News</h4></div>
+            </div>
+            <div class="column">
+                <div><h4>Blog</h4></div>
+                <div><h4>FAQ</h4></div>
+                <div><h4>Contacts</h4></div>
+                <div><h4>Privacy & cookies</h4></div>
+            </div>
+            <div class="images">
+                <div class="image1"></div>
+                <div class="image2"></div>
+                <div class="image3"></div>    
+            </div>
+        </div>
+        <hr>
+        <div class="bottomFooter">
+            <h5>Copyright &#169; Company 2018-2019</h5>
+        </div>
+    </footer>
+</body>
+</html>

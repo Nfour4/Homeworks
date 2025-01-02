@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Задание 2. Реализовать html-страницу с вертикальным меню.
+Один пункт меню состоит из иконки и текста. При наведении мышкой на пункт меню, его фон должен меняться на более тёмный (как пункт SECURITY на скриншоте). -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="verticalMenu.css">
+    <title>Vertical Menu</title>
+    <style>
+        .conteiner{
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            background: #808080;
+        }
+        .itemMenu{
+            display: flex;
+            padding: 1em 0;
+        }
+        .itemMenu img{
+            width: 100px;
+        }
+        .itemMenu label{
+            padding-left: 2em;
+            padding-top: 2em;
+            color: white;
+            font-size: 1.4em;
+            font-family: sans-serif;
+        }
+        .itemMenu:hover{
+            background: #5e5e5e;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="itemMenu">
+            <img src="icons/edit.png" id="edit" alt="Редактировать">
+            <label for="edit">EDIT</label>
+        </div>
+        <div class="itemMenu">
+            <img src="icons/favorites.png" id="favor" alt="Избранное">
+            <label for="favor">FAVORITES</label>
+        </div>
+        <div class="itemMenu">
+            <img src="icons/history.png" id="history" alt="История">
+            <label for="history">HISTORY</label>
+        </div>
+        <div class="itemMenu">
+            <img src="icons/security.png" id="security" alt="Безопасность">
+            <label for="security">SECURITY</label>
+        </div>
+        <div class="itemMenu">
+            <img src="icons/settings.png" id="set" alt="Настройки">
+            <label for="set">SETTINGS</label>
+        </div>
+    </div>
+</body>
+</html>
