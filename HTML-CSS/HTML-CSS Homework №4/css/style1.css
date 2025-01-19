@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #014242;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 615px;
+}
+
+/*цвет названия колонок*/
+.color {
+    color: gray;
+}
+
+/*вид ссылок в колонках*/
+.s2 {
+    color: white; /*меняем синий цвет на белый*/
+}
+
+h1 {
+    width: 700px;
+    font-size: 60px;
+    margin: 20px 20px 40px 60px;
+    white-space: nowrap; /*запрет переноса заголовка*/
+}
+
+ul {
+    padding: 0;
+    margin: 60px 0  0 60px;
+    font-size: 18px;
+}
+li {
+    display: inline; /* Располагает элементы списка в одну строку */
+    padding: 0;
+    color: gray;
+}
+a {
+    text-decoration: none; /* Убирает подчеркивание у ссылок */
+    color: gray;
+}
+.container{
+    display:flex;
+    align-items: center;
+}
+#A {
+    justify-content: space-between;/* для равномерного распределения контейнеров */
+}
+.col-right {
+    display: flex;
+    gap: 30px;/* Добавляем отступы между колонками */
+    white-space: nowrap;
+    font-size: 18px;
+    margin-left:40px;
+    text-decoration: none; /*убираем подчёркивание*/
+
+}
+
+@media screen and (max-width: 600px) {
+    .col-right {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .col-right div:nth-child(1) {
+        order: 2;
+    }
+    .col-right div:nth-child(2) {
+        order: 3;
+    }
+    .col-right div:nth-child(3) {
+        order: 4;
+    }
+    .col-right div:nth-child(4) {
+        order: 1;
+    }
+    
+    body{
+        font-size: 8vw; /* Масштабируем размер шрифта h1 в соответствии с шириной видимой области */
+    }
+
+    .container{
+        margin-left: 60px;
+    }
+
+    .cvet{
+        padding-left: 20px;
+        font-size: 24px;
+    }
+
+    ul{
+        font-size: 24px;
+    }
+
+    img{
+        width: 100px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 601px){
+    body{
+        min-width: 740px;
+    }
+    h1, img{
+        margin-left: 60px;
+    }
+    .container {
+        font-size: 8vw;  
+    }
+}
