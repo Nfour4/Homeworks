@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 9. Запросите у пользователя трехзначное число и выведите
+    его задом наперед. Для решения задачи вам понадобится
+    оператор % (остаток от деления). -->
+
+    <script>
+        let number = prompt("Введите трехзначное(!) число: ");
+
+        number = parseInt(number);
+
+        let number1 = number % 10;
+        let number2 = parseInt(number/10) % 10;
+        let number3 = parseInt(number / 100) % 10;
+
+        alert("Ваше число наоборот: " + number1 + number2 + number3);
+    </script>
+</body>
+</html>

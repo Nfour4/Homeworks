@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1. Запросить у пользователя его возраст и определить, кем он
+    является: ребенком (0–2), подростком (12–18), взрослым
+    (18_60) или пенсионером (60– ...). -->
+
+    <script>
+        let age = parseInt(prompt("Введите Ваш возраст:"));
+
+        if (age >= 0 && age <= 12)
+            alert("Вы - ребенок");
+        else if (age >= 13 && age <= 18)
+            alert("Вы - подросток");
+        else if (age >= 19 && age <= 60)
+            alert("Вы - взрослый");
+        else 
+            alert("Вы - пенсионер");
+    </script>
+</body>
+</html>

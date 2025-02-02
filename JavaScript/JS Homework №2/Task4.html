@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 4. Запросить у пользователя год и проверить, високосный он
+    или нет. Високосный год либо кратен 400, либо кратен 4 и
+    при этом не кратен 100. -->
+
+    <script>
+        let year = parseInt(prompt("Введите год: "));
+
+        if ((year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)))
+            alert("Год - високосный");
+        else 
+            alert("Год - обыкновенный");
+    </script>
+</body>
+</html>

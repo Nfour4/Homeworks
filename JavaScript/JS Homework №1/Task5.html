@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 5. Запросите у пользователя расстояние в км между двумя
+    городами и за сколько часов он хочет добраться. Посчитайте скорость, 
+    с которой необходимо двигаться, чтобы
+    успеть вовремя. -->
+
+    <script>
+        let distanse = prompt("Введите расстояние (в км.) между городами: ");
+        let time = prompt("Введите время (в ч.), за которое Вы хотите добраться: ");
+
+        distanse = parseInt(distanse);
+        time = parseInt(time);
+
+        alert("Необходимая скорость: " + (distanse/time) + " км/ч");
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 10. Запросить дату (день, месяц, год) и вывести следующую
+    за ней дату. Учтите возможность перехода на следующий
+    месяц, год, а также високосный год. -->
+
+    <script>
+        let year = parseInt(prompt('Введите год: '));
+        let month = parseInt(prompt('Введите месяц: '));
+        let day;
+        do {
+            day = parseInt(prompt('Enter a day: '));
+        }  while (((month == 4 || month == 6 || month == 9 || month == 11) && day > 30) ||
+            (day > 28 && month == 2 && (year % 400 != 0 || (year %4 !=0 && year % 100 == 0))) || 
+            (day > 29 && month==2 && day == 28 && month ==2 && (year % 400 == 0 || (year % 4 == 0 && year % 100 !=0))));
+
+        if (day == 28 && month == 2 && (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))) {
+            day = 29;
+        }
+        else if (day == 28 && month == 2) {
+            day = 1;
+            month = 3;
+        }
+        else if (day == 30) {
+            if (month == 1 || month == 3|| month == 5|| month == 7|| month == 8 || month == 10 || month == 12) {
+                day=31;
+            }
+            else {
+                day=1;
+                month++;
+                if(month > 12){
+                    month--;
+                    year++;
+                }
+            }
+        }
+        else if (day == 31){
+            day=1;
+            month++;
+            if(month > 12){
+                month = 1;
+                year++;
+            }
+        }
+        else {
+            day++;
+        }
+        alert(`Следующая дата: ${day}/${month}/${year}`);
+    </script>
+</body>
+</html>

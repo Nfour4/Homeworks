@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 6. Реализуйте конвертор валют. Пользователь вводит доллары, 
+    программа переводит в евро. Курс валюты храните в константе. -->
+
+    <script>
+        const dollarToEuro = 0.97;
+        
+        let convert = prompt("Введите сумму в долларах: ");
+        convert = parseFloat(convert);
+
+        alert("Переводим в евро: " + convert * dollarToEuro + " евро.");
+    </script>
+</body>
+</html>

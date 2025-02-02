@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 7. Запросить у пользователя сумму покупки и вывести сумму
+    к оплате со скидкой: от 200 до 300 – скидка будет 3%, от 300
+    до 500 – 5%, от 500 и выше – 7%.  -->
+
+    <script>
+        const sale1 = 0.03;
+        const sale2 = 0.05;
+        const sale3 = 0.07;
+
+        let sum = parseInt(prompt("Введите сумму покупки: "));
+
+        if (sum >= 200 && sum <= 300)
+            alert("Сумма к оплате со скидкой 3%: " + (sum - (sum*sale1)));
+        else if (sum > 300 && sum <= 500)
+            alert("Сумма к оплате со скидкой 5%: " + (sum - (sum*sale2)));
+        else if (sum > 500)
+            alert("Сумма к оплате со скидкой 7%: " + (sum - (sum*sale3)));
+        else 
+            alert("Ваша сумма покупок не предусматривает скидки, оплата будет полной.");
+    </script>
+</body>
+</html>

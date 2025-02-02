@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 8. Пользователь вводит сумму денег в кошельке и цену одной
+    шоколадки. Программа выводит сколько шоколадок может
+    купить пользователь и сколько сдачи у него останется.  -->
+
+    <script>
+        let allMoney = prompt("Введите кол-во рублей в кошельке: ");
+        let oneChocolate = prompt("Введите цену одной шоколадки: ");
+
+        allMoney = parseInt(allMoney);
+        oneChocolate = parseInt(oneChocolate);
+
+        let chocolateCount = parseInt(allMoney/oneChocolate);
+
+        alert("На эти деньги, пользователь может купить " 
+        + chocolateCount + " шоколадок(-ки) и " + (allMoney - (oneChocolate*chocolateCount)) 
+        + " рублей(-я) у него останется");
+    </script>
+</body>
+</html>

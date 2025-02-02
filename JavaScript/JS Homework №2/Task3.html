@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3. Запросить у пользователя трехзначное и число и проверить,
+    есть ли в нем одинаковые цифры -->
+
+    <script>
+        let number = prompt("Введите трехзначное(!) число: ");
+
+        number = parseInt(number);
+
+        let number1 = number % 10;
+        let number2 = parseInt(number/10) % 10;
+        let number3 = parseInt(number / 100) % 10;
+
+        if (number1 == number2 || number2 == number3 || number1 == number3)
+            alert("В этом числе есть одинаковые цифры");
+        else 
+            alert("В этом числе нет одинаковых цифр");
+    </script>
+</body>
+</html>

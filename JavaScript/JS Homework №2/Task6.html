@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 6. Написать конвертор валют. Пользователь вводит количество USD, 
+    выбирает, в какую валюту хочет перевести: EUR,
+    UAN или AZN, и получает в ответ соответствующую сумму -->
+
+    <script>
+        const eur = 0.97;
+        const uan = 7.25;
+        const azn = 1.7;
+
+        let usd = parseInt(prompt("Введите сумму в долларах: "));
+        let choice = parseInt(prompt("В какую валюту перевести? 1 - EUR, 2 - UAN, 3 - AZN"));
+
+        switch(choice) {
+            case 1:
+                alert("Ваша сумма в EUR: " + usd*eur);
+                break;
+            case 2:
+                alert("Ваша сумма в UAN: " + usd*uan);
+                break;
+            case 3:
+                alert("Ваша сумма в AZN: " + usd*azn);
+                break;
+        }
+
+    </script>
+</body>
+</html>

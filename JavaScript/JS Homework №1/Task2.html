@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--2. Запросите у пользователя год его рождения, посчитайте, 
+    сколько ему лет и выведите результат. Текущий год укажите
+    в коде как константу. -->
+
+    <script>
+        const currentYear = 2025;
+
+        let birthYear = prompt("Введите год своего рождения: ");
+        birthYear = parseInt(birthYear);
+
+        alert("Вам " + (currentYear - birthYear) + " лет.");
+    </script>
+</body>
+</html>
