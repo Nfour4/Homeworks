@@ -1,0 +1,28 @@
+.task1 {
+    width: 600px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 900px;
+    background: #344955;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    color: #f9aa33;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  #validateAZ {
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: 1px solid #f9aa33;
+    background: #344955;
+    color: #f9aa33;
+    outline: none;
+  }
+  
+  #validateAZ:hover {
+    background: #232f34;
+  }

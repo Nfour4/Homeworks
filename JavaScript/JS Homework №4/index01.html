@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style01.css">
+</head>
+
+<body>
+    <div class="task1">
+        <div>
+            <p>Enter your name (name can't contain digits)</p>
+            <input id="validateAZ" type="text" />
+        </div>
+    </div>
+
+    <script>
+        let validateAZ = document.getElementById("validateAZ");
+
+        validateAZ.addEventListener("input", function (e) {
+            let regex = /[A-Za-zА-Яа-яЁё -]/;
+            let chars = e.target.value.split("");
+            let char = chars.pop();
+            if (!regex.test(char)) {
+                e.target.value = chars.join("");
+            }
+        });
+    </script>
+</body>
+
+</html>

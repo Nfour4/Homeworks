@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style04.css">
+</head>
+
+<body>
+    <div class="task4">
+        <div class="trafficlLight">
+            <di class="light"></di>
+            <di class="light"></di>
+            <di class="light"></di>
+        </div>
+        <div>
+            <button id="btn">NEXT</button>
+        </div>
+    </div>
+
+    <script>
+        let i = -1;
+        let btn = document.getElementById("btn");
+
+        btn.addEventListener("click", function () {
+            i++;
+            let lights = ["red", "#f9aa33", "green"];
+            let light = document.querySelectorAll(".light");
+            if (light[i - 1]) light[i - 1].style.backgroundColor = "";
+            if (i == lights.length) i = 0;
+            light[i].style.backgroundColor = lights[i];
+        });
+    </script>
+</body>
+
+</html>
